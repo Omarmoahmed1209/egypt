@@ -1,0 +1,69 @@
+
+
+  html{
+    background-image: url(img/masr.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+form{
+    background-color: rgba(255, 255, 255, 0.74);
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px ;
+    font-family: "releway";
+
+
+    
+}
+h1{
+   text-align: center;
+   margin: auto;  
+}
+label{
+    display: block;
+    margin: 1em;
+}
+input, select{
+    display: block;
+    width: 100%;
+    background: #fbfbfb;
+    padding: 0.3em;
+    font-size:20px ;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+
+}
+input[type=checkbox], input[type=radio]{
+    display: block;
+    width: auto;
+}
+.inline-lebale{
+    display: block;
+    width: auto;
+}
+option{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255 )
+}
+select{
+    color: indigo;
+}
+input[type=submit]:hover,input[type=submit]:focus{
+    outline: none;
+    background-color: rgb(5, 129, 88);
+}
+input[type=reset]:hover,input[type=reset]:focus{
+    outline: none;
+    background-color: red;
+}
+input[type=submit],input[type=reset]{
+    background-color: blue;
+    color: white;
+    margin-top: 1em;
+    border-radius: 10px;
+    
+}
